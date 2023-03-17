@@ -128,12 +128,6 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
-/* fix container */
-
-.container{
-    width: 75%;
-}
-
 /* tablet */
 
 @media screen and (max-width: 768px) {
@@ -165,4 +159,10 @@ img {
         width: 90%;
     }
 
+}
+
+/* Bonus */
+
+.container{
+    width: 75%;
 }
