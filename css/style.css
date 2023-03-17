@@ -141,3 +141,21 @@ img {
         width: 100%;
     }
 }
+
+/* mobile */
+
+
+@media screen and (max-width: 480px){
+    .container{
+        width: 90%;
+        margin: auto;
+    }
+
+    .row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
